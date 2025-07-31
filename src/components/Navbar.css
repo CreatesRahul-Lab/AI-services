@@ -1,0 +1,44 @@
+.navbar {
+  background: #000;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  align-items: center;
+  border-radius: 3rem;
+  margin: 2rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.logo img {
+  width: 40px;
+}
+
+.logo span {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.dot {
+  color: #ccc;
+  font-weight: 400;
+}
+
+.menu-icon {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.menu-icon div {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  border-radius: 2px;
+}

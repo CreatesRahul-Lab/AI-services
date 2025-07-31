@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fdf133;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  padding: 1rem;
+}
